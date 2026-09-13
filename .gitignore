@@ -1,0 +1,27 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+*.out
+*.test
+coverage.txt
+
+# Keys and credentials
+*.p8
+*.key
+*.pem
+credentials.json
+
+# Local config cache
+.asactl/
+.apple-ads/
+
+# OS specific
+.DS_Store
+.vscode/
+.idea/
