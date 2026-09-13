@@ -42,15 +42,17 @@ archives:
 checksum:
   name_template: "checksums.txt"
 
-brews:
-  - repository:
-      owner: emredurukn
-      name: homebrew-tap
-      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
-    homepage: "https://github.com/emredurukn/Apple-Ads-CLI"
-    description: "Fast, scriptable CLI for the Apple Search Ads API"
-    license: "MIT"
-    directory: Formula
-    skip_upload: auto
-    test: |
-      system "#{bin}/asactl", "version"
+# Homebrew tap distribution:
+# Uncomment the following section after creating https://github.com/emredurukn/homebrew-tap
+# and adding a personal access token with 'repo' scope as secret HOMEBREW_TAP_GITHUB_TOKEN.
+# brews:
+#   - repository:
+#       owner: emredurukn
+#       name: homebrew-tap
+#       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
+#     homepage: "https://github.com/emredurukn/Apple-Ads-CLI"
+#     description: "Fast, scriptable CLI for the Apple Search Ads API"
+#     license: "MIT"
+#     directory: Formula
+#     test: |
+#       system "#{bin}/asactl", "version"
