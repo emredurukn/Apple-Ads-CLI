@@ -23,7 +23,7 @@ var RootCmd = &cobra.Command{
 	Long: `asactl is a fast and lightweight command-line interface for the Apple Search Ads API.
 Automate campaigns, ad groups, keywords, reports, budgets, and authentication workflows.
 
-Complete documentation: https://github.com/emredurukan/asactl`,
+Complete documentation: https://github.com/emredurukn/Apple-Ads-CLI`,
 }
 
 func Execute() {

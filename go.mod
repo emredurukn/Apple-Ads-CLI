@@ -1,4 +1,4 @@
-module github.com/emredurukan/asactl
+module github.com/emredurukn/asactl
 
 go 1.27.1
 

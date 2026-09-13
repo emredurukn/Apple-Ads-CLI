@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/emredurukan/asactl/pkg/config"
+	"github.com/emredurukn/asactl/pkg/config"
 )
 
 const (

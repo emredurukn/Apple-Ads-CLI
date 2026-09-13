@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/emredurukan/asactl/pkg/config"
+	"github.com/emredurukn/asactl/pkg/config"
 	"github.com/golang-jwt/jwt/v5"
 )
 

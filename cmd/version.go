@@ -3,8 +3,8 @@ package cmd
 import (
 	"os"
 
-	"github.com/emredurukan/asactl/internal/version"
-	"github.com/emredurukan/asactl/pkg/output"
+	"github.com/emredurukn/asactl/internal/version"
+	"github.com/emredurukn/asactl/pkg/output"
 	"github.com/spf13/cobra"
 )
 

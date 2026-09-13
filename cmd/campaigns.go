@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/emredurukan/asactl/pkg/appleads"
-	"github.com/emredurukan/asactl/pkg/config"
-	"github.com/emredurukan/asactl/pkg/output"
+	"github.com/emredurukn/asactl/pkg/appleads"
+	"github.com/emredurukn/asactl/pkg/config"
+	"github.com/emredurukn/asactl/pkg/output"
 	"github.com/spf13/cobra"
 )
 

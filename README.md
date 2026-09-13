@@ -18,11 +18,31 @@ Inspired by and modeled after [`rorkai/App-Store-Connect-CLI`](https://github.co
 
 ## Installation
 
+### Via Homebrew (macOS & Linux)
+
+```bash
+# Add tap and install in a single command
+brew install emredurukn/tap/asactl
+```
+
+Or tap first:
+
+```bash
+brew tap emredurukn/tap
+brew install asactl
+```
+
+### Via Install Script (curl)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/emredurukn/Apple-Ads-CLI/main/install.sh | bash
+```
+
 ### From Source (Go 1.22+)
 
 ```bash
-git clone https://github.com/emredurukan/asactl.git
-cd asactl
+git clone https://github.com/emredurukn/Apple-Ads-CLI.git
+cd Apple-Ads-CLI
 make build
 # Binary is generated at bin/asactl
 ```
