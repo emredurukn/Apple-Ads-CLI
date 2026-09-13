@@ -28,11 +28,13 @@ builds:
       - -X github.com/emredurukn/asactl/internal/version.BuildDate={{.Date}}
 
 archives:
-  - format: tar.gz
-    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+  - name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    formats:
+      - tar.gz
     format_overrides:
       - goos: windows
-        format: zip
+        formats:
+          - zip
     files:
       - README.md
       - LICENSE
@@ -48,6 +50,7 @@ brews:
     homepage: "https://github.com/emredurukn/Apple-Ads-CLI"
     description: "Fast, scriptable CLI for the Apple Search Ads API"
     license: "MIT"
-    folder: Formula
+    directory: Formula
+    skip_upload: auto
     test: |
       system "#{bin}/asactl", "version"
